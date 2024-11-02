@@ -3,31 +3,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var tapCount = 0
+    
     var body: some View {
-        Form {
-            Group {
-                Text("Hello World..")
-                Text("Hello World..")
-            }
-            
-            Group {
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-            }
-            
-            Section {
-                Text("Hello World..")
-                Text("Hello World..")
-            }
-            
-            Section {
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-            }
+        Button("Tap Count : \(tapCount)") {
+            tapCount += 1
         }
     }
 }
