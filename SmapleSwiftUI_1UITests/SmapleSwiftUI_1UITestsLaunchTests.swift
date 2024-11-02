@@ -1,9 +1,4 @@
-//
-//  SmapleSwiftUI_1UITestsLaunchTests.swift
-//  SmapleSwiftUI_1UITests
-//
-//  Created by Darshan Rahate on 02/11/24.
-//
+
 
 import XCTest
 

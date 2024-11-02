@@ -1,21 +1,34 @@
-//
-//  ContentView.swift
-//  SmapleSwiftUI_1
-//
-//  Created by Darshan Rahate on 02/11/24.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!!!!")
+        Form {
+            Group {
+                Text("Hello World..")
+                Text("Hello World..")
+            }
+            
+            Group {
+                Text("Hello World..")
+                Text("Hello World..")
+                Text("Hello World..")
+                Text("Hello World..")
+                Text("Hello World..")
+            }
+            
+            Section {
+                Text("Hello World..")
+                Text("Hello World..")
+            }
+            
+            Section {
+                Text("Hello World..")
+                Text("Hello World..")
+                Text("Hello World..")
+            }
         }
-        .padding()
     }
 }
 

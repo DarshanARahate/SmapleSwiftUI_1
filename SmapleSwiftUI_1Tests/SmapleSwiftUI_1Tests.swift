@@ -1,9 +1,4 @@
-//
-//  SmapleSwiftUI_1Tests.swift
-//  SmapleSwiftUI_1Tests
-//
-//  Created by Darshan Rahate on 02/11/24.
-//
+
 
 import Testing
 @testable import SmapleSwiftUI_1
