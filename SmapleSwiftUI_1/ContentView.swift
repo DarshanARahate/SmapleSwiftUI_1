@@ -4,30 +4,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Form {
-            Group {
-                Text("Hello World..")
-                Text("Hello World..")
+        NavigationView {
+            Form {
+                Section {
+                    Text("Hello World")
+                }
             }
-            
-            Group {
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-            }
-            
-            Section {
-                Text("Hello World..")
-                Text("Hello World..")
-            }
-            
-            Section {
-                Text("Hello World..")
-                Text("Hello World..")
-                Text("Hello World..")
-            }
+            .navigationTitle("SwiftUI")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
